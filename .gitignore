@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+
+.env
+*.key
+
+logs/
+data/*.enc
+data/*.txt
+data/*.key
+
+models/*.pt
+models/vocab.json
+
+.pytest_cache/
+.claude/
+
+# 核心规则载荷（本地持有，不上传）
+compliance/rules_payload.py
